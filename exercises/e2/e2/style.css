@@ -1,0 +1,36 @@
+.painting1 {
+    display: grid;
+    width: 600px;
+    height: 600px;
+    grid-template-rows: repeat(15, 1fr);
+    grid-template-columns: repeat(15, 1fr);
+}
+
+.cream { 
+    background: #FFF7E3;
+}
+
+.red {
+    background: #FF362F;
+}
+
+.blue {
+    background: #0196C2;
+}
+
+.yellow {
+    background: #FBDC00;
+}
+
+.border-right {
+    border-right: 15px solid #4F3C42;
+}
+
+.border-bottom {
+    border-bottom: 15px solid #4F3C42;
+}
+
+
+body {
+    background: grey;
+}
