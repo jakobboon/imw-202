@@ -1,0 +1,31 @@
+body {
+    background : whitesmoke;
+    text-align: center;
+
+}
+
+p{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline
+  }
+
+  a:hover {
+    color: lightblue;
+    background-color: transparent;
+    text-decoration:dotted
+  }
+
+  b{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    color: black;
+
+  }
