@@ -1,0 +1,85 @@
+.monospace{
+    font-family: monospace;
+}
+
+.sabbath{
+font-family: "sabbath-black", serif, monospace;
+font-weight: 400;
+font-style: normal;
+&:hover {
+    font-size: 250px;
+}
+}
+
+.google-font{
+        font-family: "Libre Barcode 128 Text", system-ui;
+        font-weight: 400;
+        font-style: normal;
+
+        &:hover {
+          color: red;
+          
+      }
+      }
+
+ @font-face {
+        font-family: 'myfont';
+        src: url('fonts/Bespoke-652B_ZdtZR.eot');
+        src: url('fonts/Bespoke-652B_ZdtZR.eot?#iefix') format('embedded-opentype'),
+           url('fonts/Bespoke-652B_ZdtZR.woff') format('woff'),
+           url('fonts/Bespoke-652B_ZdtZR.ttf') format('truetype'),
+           url('fonts/Bespoke-652B_ZdtZR.svg#Bespoke-652B_ZdtZR') format('svg');
+           
+    
+    
+          }
+
+
+      .self-hosted {
+        font-family: 'myfont', sans-serif;
+        transition: color 700ms, transform 1s;
+
+        &:hover {
+            color: aqua;
+            filter: blur(1.5rem);
+        }
+      }
+
+      /* @keyframes slide-right {
+        to {
+            transform: translateX(0);
+        }
+        from{
+            transform: translateX(100px);
+
+        }
+      }
+
+     /* .self-hosted:hover {
+        color: limegreen;
+      } */
+
+      h2 {
+        font-weight: bold;
+        color: black;
+        font-size: 125px;
+        text-align: center;
+      }
+
+      h3{
+        color: black;
+        font-size: 100px;
+        text-align: left;
+      }
+
+      p{
+        color: black;
+        font-size: 30px;
+        text-align: center;
+      }
+
+      h4{
+        color: black;
+        font-size: 100px;
+        text-align: left;
+      }
