@@ -1,0 +1,49 @@
+body {
+    background: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 150px;
+    font-family: sans-serif;
+}
+
+@media (max-width: 900px) {
+    body {
+        background: greenyellow;
+    }
+
+    h1 {
+
+        font-family: "sabbath-black", serif, monospace;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    body {
+        background: pink;
+    }
+
+    h1 {
+        font-family: sans-serif;
+    }
+}
+
+@media (max-width: 510px) {
+    body {
+        background: orange;
+    }
+
+    h1 {
+        font-family: "jaf-herb", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+}
