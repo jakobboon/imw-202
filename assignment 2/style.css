@@ -119,6 +119,7 @@ h4 {
 .speakers-section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
     height: 500px;
     padding-bottom: 15px;
 }
@@ -127,6 +128,7 @@ h4 {
     font-size: 36px;
     font-weight: 200px;
     line-height: 50px;
+    justify-content: center;
     font-family: sans-serif;
     padding-left: 36px;
 }
@@ -150,17 +152,23 @@ h4 {
 }
 
 .schedule-section {
-    height: 70vh;
-    line-height: 70px;
+    height: 100vh;
+    line-height: 50px;
+    justify-content: center;
 }
 
 h3 {
+    padding-top: 30px;
     padding-left: 36px;
-    font-size: 26px;
+    font-size: 30px;
     font-weight: normal;
     font-family: sans-serif;
 }
 
 .green-date {
+    color: green;
+}
+
+b {
     color: green;
 }
