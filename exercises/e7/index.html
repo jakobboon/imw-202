@@ -1,6 +1,37 @@
 <!-- HTML file for E7-->
+<!-- jquery Library standards:
+1 effects
+2 events 
+3 manipulations
+-->
 
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E7: jQuery</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+
+
+
+<body>
+    <!-- text above main container-->
+    <div class="instructionscontainer">
+        <h1>click to add line, double click line to remove - - - - - - - - - - - - - - <a href="index.html">restart</a>
+        </h1>
+
+        <!-- main container holding lines-->
+        <div class="container">
+            <p>click</p>
+            <div class="stripe"></div>
+        </div>
+
+        <script src="script.js"></script>
+</body>
+
+</html>
