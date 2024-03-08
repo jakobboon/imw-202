@@ -1,0 +1,63 @@
+.container {
+    border: 3px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.popup {
+    height: 20vmin;
+    width: 60vmin;
+    border: 3px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+p {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.exercise {
+    padding: 32px;
+}
+
+.popup {
+    position: fixed;
+    max-width: 40%;
+    max-height: 20%;
+    top: 50%;
+    left: 50%;
+    border: 3px solid black;
+    z-index: 1;
+    background-color: white;
+    overflow-y: auto;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.popup-content {
+    width: 90%;
+    margin: auto;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 15px;
+}
+
+.h1 {
+    font-size: 20px;
+}
+
+.title-top {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+}
